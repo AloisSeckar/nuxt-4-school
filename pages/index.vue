@@ -54,9 +54,21 @@
       vytvořené během proběhlých projektů.
     </div>
     <ul class="list-disc pl-6">
-      <li>
-        <strong>20.11.2023</strong> - AHOL - Vyšší odborná škola, Ostrava
+      <li v-for="item in events" :key="item.link">
+        <strong>{{ item.date }}</strong>
+        -
+        <NuxtLink :to="item.link">
+          {{ item.name }}
+        </NuxtLink>
       </li>
     </ul>
   </div>
 </template>
+
+<script setup lang="ts">
+import type { EventInfo } from '@/utils/types'
+
+const events: EventInfo[] = [
+  { date: '20.11.2023', name: 'VOŠ AHOL, Ostrava', link: '/2023/ahol' }
+]
+</script>
