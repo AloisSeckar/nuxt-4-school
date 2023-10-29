@@ -9,14 +9,25 @@
     </div>
     <h2>POPIS WORKSHOPU</h2>
     <div>
-      Studenti se seznámí s frameworkem Nuxt určeným pro tvorbu webových aplikací v jazyce JavaScript.
-      Výklad bude probíhat názorně nad zdrojovým kódem tohoto projektu, který je veřejně k dispozici na
-      https://github.com/AloisSeckar/nuxt-4-school. Součástí bude též seznámení se a výklad (bude-li třeba)
-      jak funguje verzovácí nástroj Git a platforma GitHub a jak umožňují souběžnou práci více programátorů.
-      Cílem workshopu bude vytvoření osobní stránky každého účastníka, která bude přidána do tohoto projektu
-      a stane se jeho veřejnou součástí. Součástí procesu je tedy nejen samotné vývoj pomocí Nuxt,
-      ale i vyzkoušení si, jakým způsobem lze přispět do jiného programátorského projektu.
-      Účastníci budou mít do projektu možnost vstupovat i v budoucnu a své příspěvky dále vylepšovat.
+      Studenti se seznámí s frameworkem <a href="https://nuxt.com/">Nuxt</a> určeným pro tvorbu webových
+      aplikací v programovacím jazyce JavaScript. Výklad bude probíhat názorně nad zdrojovým kódem tohoto projektu,
+      který je veřejně k dispozici <a href="https://github.com/AloisSeckar/nuxt-4-school">ZDE</a>.
+      Součástí bude též seznámení se (a výklad, bude-li třeba), jak funguje verzovácí systém
+      <a href="https://git-scm.com/">Git</a> a odvozená platforma <a href="https://github.com/">GitHub</a>
+      a jak tyto nástroje umožňují souběžnou práci více programátorů.
+    </div>
+    <div>
+      Cílem workshopu bude vytvoření osobní stránky každého účastníka, která bude v průběhu výuky přidána
+      do tohoto projektu a stane se jeho veřejnou součástí. Součástí procesu je tedy nejen samotný vývoj
+      pomocí Nuxt, ale i vyzkoušení si vzájemné kolaborace v rámci většího projektu (všichni budou pracovat
+      nad společným zdrojovým kódem). Zájemci budou mít do projektu možnost vstupovat i v budoucnu
+      a své příspěvky dále vylepšovat.
+    </div>
+    <div>
+      Pro představu viz
+      <NuxtLink to="/demo">
+        DEMO APLIKACE
+      </NuxtLink>
     </div>
     <h2>PŘEDPOKLADY WORKSHOPU</h2>
     <div>
@@ -26,19 +37,23 @@
     <div>
       Je třeba mít nainstalováno nebo mít možnost v rámci projektu nainstalovat následující aplikace:
     </div>
-    <ul>
+    <ul class="list-disc pl-6">
       <li>
-        <strong>Git</strong> - verzovací software pro kolaborativný vývoj aplikací
-        <strong>GitHub desktop</strong> - integrace pro snadné napojení na projekt
-        <strong>VS Code</strong> - vývojové prostředí pro programování
-        <strong>Node.js</strong> - lokální běhové prostředí pro JavaScriptové aplikace
+        <strong>Git</strong> - verzovací software pro kolaborativný vývoj aplikací (<a href="https://git-scm.com/">https://git-scm.com/</a>)
+      </li>
+      <li>
+        <strong>VS Code</strong> - integrované vývojové prostředí pro programování (<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>)
+      </li>
+      <li>
+        <strong>Node.js</strong> - lokální běhové prostředí pro JavaScriptové aplikace (<a href="https://nodejs.org/">https://nodejs.org/</a>)
       </li>
     </ul>
     <h2>ROZCESTNÍK PROJEKTŮ</h2>
     <div>
-      Zde naleznete odkazy na jednotlivé proběhlé workshopy a osobní stránky jednotlivých studentů vytvořené během projektů.
+      Zde naleznete odkazy na jednotlivé proběhlé workshopy a osobní stránky jednotlivých studentů
+      vytvořené během proběhlých projektů.
     </div>
-    <ul>
+    <ul class="list-disc pl-6">
       <li>
         <strong>20.11.2023</strong> - AHOL - Vyšší odborná škola, Ostrava
       </li>

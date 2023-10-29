@@ -1,7 +1,9 @@
 <template>
   <div class="m-1 p-1">
     <h1 class="text-3xl text-emerald-600 font-bold">
-      nuxt-4-school
+      <NuxtLink to="/">
+        nuxt-4-school
+      </NuxtLink>
     </h1>
     <div class="mb-1">
       Základy vývoje webových stránek ve frameworku Nuxt

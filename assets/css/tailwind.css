@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    h2, div, ul {
+        @apply mb-2 text-justify;
+    }
+
+    h2 {
+        @apply text-xl text-emerald-600 font-bold;
+    }
+
+    a {
+        @apply text-emerald-600;
+    }
+}
