@@ -6,16 +6,18 @@
       stránky vytvořené jednotlivými účastníky.
     </div>
     <ul class="list-disc pl-6">
-      <li>
-        <NuxtLink to="/demo/jan-novak">
-          <strong>Jan Novák</strong>
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/demo/alois-seckar">
-          <strong>Alois Sečkár</strong>
+      <li v-for="item in profiles" :key="item.link">
+        <NuxtLink :to="`/demo/${item.link}`">
+          <strong>{{ item.name }}</strong>
         </NuxtLink>
       </li>
     </ul>
   </div>
 </template>
+
+<script setup lang="ts">
+const profiles = [
+  { name: 'Jan Novák', link: 'jan-novak' },
+  { name: 'Alois Sečkár', link: 'alois-seckar' }
+]
+</script>
