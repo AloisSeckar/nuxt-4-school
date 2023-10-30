@@ -9,7 +9,7 @@
       Základy vývoje webových stránek ve frameworku Nuxt
     </div>
     <hr>
-    <div class="m-2 p-2 border-2 overflow-auto">
+    <div class="p-2 overflow-auto">
       <NuxtPage />
     </div>
     <hr>

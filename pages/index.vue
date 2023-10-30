@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="text-justify">
+    <div class="mb-2">
       V rámci projektu <a href="https://www.denproskolu.cz/">Den pro školu</a>
       nabízím IT workshopy na téma <strong>"Vývoj webových aplikací pomocí frameworku Nuxt"</strong>.
       Jsou určeny spíše pro pokročilejší studenty informatiky.
@@ -8,7 +8,7 @@
       <a href="https://web-4-school.netlify.app/">"Základy tvorby webových stránek"</a>.
     </div>
     <h2>POPIS WORKSHOPU</h2>
-    <div>
+    <div class="mb-2">
       Studenti se seznámí s frameworkem <a href="https://nuxt.com/">Nuxt</a> určeným pro tvorbu webových
       aplikací v programovacím jazyce JavaScript. Výklad bude probíhat názorně nad zdrojovým kódem tohoto projektu,
       který je veřejně k dispozici <a href="https://github.com/AloisSeckar/nuxt-4-school">ZDE</a>.
@@ -16,28 +16,28 @@
       <a href="https://git-scm.com/">Git</a> a odvozená platforma <a href="https://github.com/">GitHub</a>
       a jak tyto nástroje umožňují souběžnou práci více programátorů.
     </div>
-    <div>
+    <div class="mb-2">
       Cílem workshopu bude vytvoření osobní stránky každého účastníka, která bude v průběhu výuky přidána
       do tohoto projektu a stane se jeho veřejnou součástí. Součástí procesu je tedy nejen samotný vývoj
       pomocí Nuxt, ale i vyzkoušení si vzájemné kolaborace v rámci většího projektu (všichni budou pracovat
       nad společným zdrojovým kódem). Zájemci budou mít do projektu možnost vstupovat i v budoucnu
       a své příspěvky dále vylepšovat.
     </div>
-    <div>
+    <div class="mb-2">
       Pro představu viz
       <NuxtLink to="/demo">
         DEMO APLIKACE
       </NuxtLink>
     </div>
     <h2>PŘEDPOKLADY WORKSHOPU</h2>
-    <div>
+    <div class="mb-2">
       Základní znalost HTML, CSS a JavaScriptu, nebo alespoň základní orientace v problematice programování
       a schopnost zorientovat se v nové technologii na základě praktického výkladu přímo během workshopu.
     </div>
-    <div>
+    <div class="mb-2">
       Je třeba mít nainstalováno nebo mít možnost v rámci projektu nainstalovat následující aplikace:
     </div>
-    <ul class="list-disc pl-6">
+    <ul>
       <li>
         <strong>Git</strong> - verzovací software pro kolaborativný vývoj aplikací (<a href="https://git-scm.com/">https://git-scm.com/</a>)
       </li>
@@ -49,11 +49,11 @@
       </li>
     </ul>
     <h2>ROZCESTNÍK PROJEKTŮ</h2>
-    <div>
+    <div class="mb-2">
       Zde naleznete odkazy na jednotlivé proběhlé workshopy a osobní stránky jednotlivých studentů
       vytvořené během proběhlých projektů.
     </div>
-    <ul class="list-disc pl-6">
+    <ul>
       <li v-for="item in events" :key="item.link">
         <strong>{{ item.date }}</strong>
         -
