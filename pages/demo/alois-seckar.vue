@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex">
+  <div class="flex">
     <div class="m-1 w-64">
       <PersonalCard
         first-name="Alois"

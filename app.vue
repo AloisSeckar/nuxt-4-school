@@ -14,13 +14,14 @@
     </div>
     <hr>
     <div class="mt-1 mb-0 text-xs">
-      <NuxtLink to="/" class="text-emerald-600 hover:text-emerald-400">
+      <BackLink />
+      <NuxtLink to="/">
         Zpět na úvod
       </NuxtLink>
       ||
       &copy; 2023 - Alois Sečkár
       ||
-      <NuxtLink to="https://github.com/AloisSeckar/nuxt-4-school" class="text-emerald-600 hover:text-emerald-400">
+      <NuxtLink to="https://github.com/AloisSeckar/nuxt-4-school">
         Zdrojový kód projektu
       </NuxtLink>
     </div>
