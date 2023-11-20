@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "npm install && nuxt dev",
-    "build": "npm install && nuxt build"
+    "build": "npm install && nuxt build",
+    "start": "nuxt preview"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "12.1.0",
