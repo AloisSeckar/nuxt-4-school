@@ -2,7 +2,7 @@
   <div class="m-1 p-1">
     <h1 class="text-3xl text-emerald-600 font-bold">
       <NuxtLink to="/">
-        nuxt-4-school hmmmm yummy
+        nuxt-4-school
       </NuxtLink>
     </h1>
     <div class="mb-1">
