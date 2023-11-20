@@ -21,6 +21,6 @@
 import type { ProfileInfo } from '@/utils/types'
 
 const profiles: ProfileInfo[] = [
-  // { name: 'Jan Novák', link: 'jan-novak' }
+  { name: 'Petr Novák', link: 'petr-novak' }
 ]
 </script>
