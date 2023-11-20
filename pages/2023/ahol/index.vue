@@ -6,7 +6,7 @@
     </div>
     <ul class="list-disc pl-6">
       <li v-for="item in profiles" :key="item.link">
-        <NuxtLink :to="`/demo/${item.link}`">
+        <NuxtLink :to="`/2023/ahol/${item.link}`">
           <strong>{{ item.name }}</strong>
         </NuxtLink>
       </li>
